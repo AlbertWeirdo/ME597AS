@@ -1,0 +1,45 @@
+[0.711s] Invoking command in '/home/albert/ros2_ws/src/task_1': PYTHONPATH=/home/albert/ros2_ws/build/task_1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/albert/ros2_ws/install/task_1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/task_1 build --build-base /home/albert/ros2_ws/build/task_1/build install --record /home/albert/ros2_ws/build/task_1/install.log --single-version-externally-managed install_data
+[0.915s] running egg_info
+[0.916s] creating ../../build/task_1/task_1.egg-info
+[0.916s] writing ../../build/task_1/task_1.egg-info/PKG-INFO
+[0.916s] writing dependency_links to ../../build/task_1/task_1.egg-info/dependency_links.txt
+[0.916s] writing entry points to ../../build/task_1/task_1.egg-info/entry_points.txt
+[0.917s] writing requirements to ../../build/task_1/task_1.egg-info/requires.txt
+[0.917s] writing top-level names to ../../build/task_1/task_1.egg-info/top_level.txt
+[0.917s] writing manifest file '../../build/task_1/task_1.egg-info/SOURCES.txt'
+[0.919s] reading manifest file '../../build/task_1/task_1.egg-info/SOURCES.txt'
+[0.919s] adding license file 'LICENSE'
+[0.919s] writing manifest file '../../build/task_1/task_1.egg-info/SOURCES.txt'
+[0.919s] running build
+[0.920s] running build_py
+[0.920s] creating /home/albert/ros2_ws/build/task_1/build
+[0.920s] creating /home/albert/ros2_ws/build/task_1/build/lib
+[0.920s] creating /home/albert/ros2_ws/build/task_1/build/lib/task_1
+[0.920s] copying task_1/__init__.py -> /home/albert/ros2_ws/build/task_1/build/lib/task_1
+[0.920s] copying task_1/time_recorder_pub.py -> /home/albert/ros2_ws/build/task_1/build/lib/task_1
+[0.920s] copying task_1/doubler_sub.py -> /home/albert/ros2_ws/build/task_1/build/lib/task_1
+[0.921s] running install
+[0.921s] running install_lib
+[0.922s] creating /home/albert/ros2_ws/install/task_1/lib/python3.10/site-packages/task_1
+[0.922s] copying /home/albert/ros2_ws/build/task_1/build/lib/task_1/__init__.py -> /home/albert/ros2_ws/install/task_1/lib/python3.10/site-packages/task_1
+[0.922s] copying /home/albert/ros2_ws/build/task_1/build/lib/task_1/time_recorder_pub.py -> /home/albert/ros2_ws/install/task_1/lib/python3.10/site-packages/task_1
+[0.923s] copying /home/albert/ros2_ws/build/task_1/build/lib/task_1/doubler_sub.py -> /home/albert/ros2_ws/install/task_1/lib/python3.10/site-packages/task_1
+[0.923s] byte-compiling /home/albert/ros2_ws/install/task_1/lib/python3.10/site-packages/task_1/__init__.py to __init__.cpython-310.pyc
+[0.923s] byte-compiling /home/albert/ros2_ws/install/task_1/lib/python3.10/site-packages/task_1/time_recorder_pub.py to time_recorder_pub.cpython-310.pyc
+[0.923s] byte-compiling /home/albert/ros2_ws/install/task_1/lib/python3.10/site-packages/task_1/doubler_sub.py to doubler_sub.cpython-310.pyc
+[0.924s] running install_data
+[0.924s] creating /home/albert/ros2_ws/install/task_1/share/ament_index
+[0.924s] creating /home/albert/ros2_ws/install/task_1/share/ament_index/resource_index
+[0.925s] creating /home/albert/ros2_ws/install/task_1/share/ament_index/resource_index/packages
+[0.925s] copying resource/task_1 -> /home/albert/ros2_ws/install/task_1/share/ament_index/resource_index/packages
+[0.925s] copying package.xml -> /home/albert/ros2_ws/install/task_1/share/task_1
+[0.925s] creating /home/albert/ros2_ws/install/task_1/share/task_1/launch
+[0.925s] creating /home/albert/ros2_ws/install/task_1/share/task_1/launch/pub_sub_launch.py
+[0.926s] copying launch/pub_sub_launch.py -> /home/albert/ros2_ws/install/task_1/share/task_1/launch/pub_sub_launch.py
+[0.926s] running install_egg_info
+[0.927s] Copying ../../build/task_1/task_1.egg-info to /home/albert/ros2_ws/install/task_1/lib/python3.10/site-packages/task_1-0.0.0-py3.10.egg-info
+[0.927s] running install_scripts
+[0.945s] Installing listener script to /home/albert/ros2_ws/install/task_1/lib/task_1
+[0.946s] Installing talker script to /home/albert/ros2_ws/install/task_1/lib/task_1
+[0.946s] writing list of installed files to '/home/albert/ros2_ws/build/task_1/install.log'
+[0.976s] Invoked command in '/home/albert/ros2_ws/src/task_1' returned '0': PYTHONPATH=/home/albert/ros2_ws/build/task_1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/albert/ros2_ws/install/task_1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/task_1 build --build-base /home/albert/ros2_ws/build/task_1/build install --record /home/albert/ros2_ws/build/task_1/install.log --single-version-externally-managed install_data

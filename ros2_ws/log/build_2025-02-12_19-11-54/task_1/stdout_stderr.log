@@ -1,0 +1,43 @@
+running egg_info
+creating ../../build/task_1/task_1.egg-info
+writing ../../build/task_1/task_1.egg-info/PKG-INFO
+writing dependency_links to ../../build/task_1/task_1.egg-info/dependency_links.txt
+writing entry points to ../../build/task_1/task_1.egg-info/entry_points.txt
+writing requirements to ../../build/task_1/task_1.egg-info/requires.txt
+writing top-level names to ../../build/task_1/task_1.egg-info/top_level.txt
+writing manifest file '../../build/task_1/task_1.egg-info/SOURCES.txt'
+reading manifest file '../../build/task_1/task_1.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/task_1/task_1.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/albert/ros2_ws/build/task_1/build
+creating /home/albert/ros2_ws/build/task_1/build/lib
+creating /home/albert/ros2_ws/build/task_1/build/lib/task_1
+copying task_1/__init__.py -> /home/albert/ros2_ws/build/task_1/build/lib/task_1
+copying task_1/time_recorder_pub.py -> /home/albert/ros2_ws/build/task_1/build/lib/task_1
+copying task_1/doubler_sub.py -> /home/albert/ros2_ws/build/task_1/build/lib/task_1
+running install
+running install_lib
+creating /home/albert/ros2_ws/install/task_1/lib/python3.10/site-packages/task_1
+copying /home/albert/ros2_ws/build/task_1/build/lib/task_1/__init__.py -> /home/albert/ros2_ws/install/task_1/lib/python3.10/site-packages/task_1
+copying /home/albert/ros2_ws/build/task_1/build/lib/task_1/time_recorder_pub.py -> /home/albert/ros2_ws/install/task_1/lib/python3.10/site-packages/task_1
+copying /home/albert/ros2_ws/build/task_1/build/lib/task_1/doubler_sub.py -> /home/albert/ros2_ws/install/task_1/lib/python3.10/site-packages/task_1
+byte-compiling /home/albert/ros2_ws/install/task_1/lib/python3.10/site-packages/task_1/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/albert/ros2_ws/install/task_1/lib/python3.10/site-packages/task_1/time_recorder_pub.py to time_recorder_pub.cpython-310.pyc
+byte-compiling /home/albert/ros2_ws/install/task_1/lib/python3.10/site-packages/task_1/doubler_sub.py to doubler_sub.cpython-310.pyc
+running install_data
+creating /home/albert/ros2_ws/install/task_1/share/ament_index
+creating /home/albert/ros2_ws/install/task_1/share/ament_index/resource_index
+creating /home/albert/ros2_ws/install/task_1/share/ament_index/resource_index/packages
+copying resource/task_1 -> /home/albert/ros2_ws/install/task_1/share/ament_index/resource_index/packages
+copying package.xml -> /home/albert/ros2_ws/install/task_1/share/task_1
+creating /home/albert/ros2_ws/install/task_1/share/task_1/launch
+creating /home/albert/ros2_ws/install/task_1/share/task_1/launch/pub_sub_launch.py
+copying launch/pub_sub_launch.py -> /home/albert/ros2_ws/install/task_1/share/task_1/launch/pub_sub_launch.py
+running install_egg_info
+Copying ../../build/task_1/task_1.egg-info to /home/albert/ros2_ws/install/task_1/lib/python3.10/site-packages/task_1-0.0.0-py3.10.egg-info
+running install_scripts
+Installing listener script to /home/albert/ros2_ws/install/task_1/lib/task_1
+Installing talker script to /home/albert/ros2_ws/install/task_1/lib/task_1
+writing list of installed files to '/home/albert/ros2_ws/build/task_1/install.log'

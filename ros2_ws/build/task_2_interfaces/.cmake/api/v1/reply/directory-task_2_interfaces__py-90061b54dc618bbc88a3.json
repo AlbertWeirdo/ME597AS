@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "task_2_interfaces__py",
+		"source" : "/home/albert/ros2_ws/build/task_2_interfaces/task_2_interfaces__py"
+	}
+}

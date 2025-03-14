@@ -1,0 +1,4 @@
+[console_scripts]
+listener = task_1.doubler_sub:main
+talker = task_1.time_recorder_pub:main
+

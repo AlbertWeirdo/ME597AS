@@ -1,0 +1,44 @@
+[0.706s] Invoking command in '/home/albert/ros2_ws/src/task_3': PYTHONPATH=/home/albert/ros2_ws/build/task_3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/albert/ros2_ws/install/task_3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/task_3 build --build-base /home/albert/ros2_ws/build/task_3/build install --record /home/albert/ros2_ws/build/task_3/install.log --single-version-externally-managed install_data
+[0.913s] running egg_info
+[0.914s] creating ../../build/task_3/task_3.egg-info
+[0.914s] writing ../../build/task_3/task_3.egg-info/PKG-INFO
+[0.914s] writing dependency_links to ../../build/task_3/task_3.egg-info/dependency_links.txt
+[0.914s] writing entry points to ../../build/task_3/task_3.egg-info/entry_points.txt
+[0.914s] writing requirements to ../../build/task_3/task_3.egg-info/requires.txt
+[0.914s] writing top-level names to ../../build/task_3/task_3.egg-info/top_level.txt
+[0.915s] writing manifest file '../../build/task_3/task_3.egg-info/SOURCES.txt'
+[0.916s] reading manifest file '../../build/task_3/task_3.egg-info/SOURCES.txt'
+[0.916s] adding license file 'LICENSE'
+[0.917s] writing manifest file '../../build/task_3/task_3.egg-info/SOURCES.txt'
+[0.917s] running build
+[0.917s] running build_py
+[0.917s] creating /home/albert/ros2_ws/build/task_3/build
+[0.917s] creating /home/albert/ros2_ws/build/task_3/build/lib
+[0.918s] creating /home/albert/ros2_ws/build/task_3/build/lib/task_3
+[0.918s] copying task_3/pid_controller.py -> /home/albert/ros2_ws/build/task_3/build/lib/task_3
+[0.918s] copying task_3/__init__.py -> /home/albert/ros2_ws/build/task_3/build/lib/task_3
+[0.918s] copying task_3/find_angel.py -> /home/albert/ros2_ws/build/task_3/build/lib/task_3
+[0.918s] running install
+[0.918s] running install_lib
+[0.918s] creating /home/albert/ros2_ws/install/task_3/lib/python3.10/site-packages/task_3
+[0.919s] copying /home/albert/ros2_ws/build/task_3/build/lib/task_3/pid_controller.py -> /home/albert/ros2_ws/install/task_3/lib/python3.10/site-packages/task_3
+[0.919s] copying /home/albert/ros2_ws/build/task_3/build/lib/task_3/__init__.py -> /home/albert/ros2_ws/install/task_3/lib/python3.10/site-packages/task_3
+[0.919s] copying /home/albert/ros2_ws/build/task_3/build/lib/task_3/find_angel.py -> /home/albert/ros2_ws/install/task_3/lib/python3.10/site-packages/task_3
+[0.919s] byte-compiling /home/albert/ros2_ws/install/task_3/lib/python3.10/site-packages/task_3/pid_controller.py to pid_controller.cpython-310.pyc
+[0.919s] byte-compiling /home/albert/ros2_ws/install/task_3/lib/python3.10/site-packages/task_3/__init__.py to __init__.cpython-310.pyc
+[0.920s] byte-compiling /home/albert/ros2_ws/install/task_3/lib/python3.10/site-packages/task_3/find_angel.py to find_angel.cpython-310.pyc
+[0.920s] running install_data
+[0.920s] creating /home/albert/ros2_ws/install/task_3/share/ament_index
+[0.920s] creating /home/albert/ros2_ws/install/task_3/share/ament_index/resource_index
+[0.920s] creating /home/albert/ros2_ws/install/task_3/share/ament_index/resource_index/packages
+[0.921s] copying resource/task_3 -> /home/albert/ros2_ws/install/task_3/share/ament_index/resource_index/packages
+[0.921s] copying package.xml -> /home/albert/ros2_ws/install/task_3/share/task_3
+[0.921s] creating /home/albert/ros2_ws/install/task_3/share/task_3/launch
+[0.921s] creating /home/albert/ros2_ws/install/task_3/share/task_3/launch/pid_control_launch.py
+[0.921s] copying launch/pid_control_launch.py -> /home/albert/ros2_ws/install/task_3/share/task_3/launch/pid_control_launch.py
+[0.921s] running install_egg_info
+[0.922s] Copying ../../build/task_3/task_3.egg-info to /home/albert/ros2_ws/install/task_3/lib/python3.10/site-packages/task_3-0.0.0-py3.10.egg-info
+[0.922s] running install_scripts
+[0.941s] Installing pid_speed_controller script to /home/albert/ros2_ws/install/task_3/lib/task_3
+[0.941s] writing list of installed files to '/home/albert/ros2_ws/build/task_3/install.log'
+[0.962s] Invoked command in '/home/albert/ros2_ws/src/task_3' returned '0': PYTHONPATH=/home/albert/ros2_ws/build/task_3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/albert/ros2_ws/install/task_3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/task_3 build --build-base /home/albert/ros2_ws/build/task_3/build install --record /home/albert/ros2_ws/build/task_3/install.log --single-version-externally-managed install_data

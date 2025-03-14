@@ -1,0 +1,3 @@
+[0.024s] Invoking command in '/home/albert/ros2_ws/build/my_project_name': /usr/bin/cmake --build /home/albert/ros2_ws/build/my_project_name -- -j12 -l12
+[0.578s] [100%] Built target my_executable
+[0.806s] Invoked command in '/home/albert/ros2_ws/build/my_project_name' returned '0': /usr/bin/cmake --build /home/albert/ros2_ws/build/my_project_name -- -j12 -l12

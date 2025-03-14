@@ -1,0 +1,4 @@
+[0.027s] Invoking command in '/home/albert/ros2_ws/build/my_project_name': /usr/bin/cmake --build /home/albert/ros2_ws/build/my_project_name -- -j12 -l12
+[0.544s] [35m[1mConsolidate compiler generated dependencies of target my_executable[0m
+[0.544s] [100%] Built target my_executable
+[0.789s] Invoked command in '/home/albert/ros2_ws/build/my_project_name' returned '0': /usr/bin/cmake --build /home/albert/ros2_ws/build/my_project_name -- -j12 -l12

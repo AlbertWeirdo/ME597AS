@@ -1,0 +1,21 @@
+[1.177s] Invoking command in '/home/albert/ros2_ws/src/task_3': PYTHONPATH=/home/albert/ros2_ws/build/task_3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/albert/ros2_ws/install/task_3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/task_3 build --build-base /home/albert/ros2_ws/build/task_3/build install --record /home/albert/ros2_ws/build/task_3/install.log --single-version-externally-managed install_data
+[1.429s] running egg_info
+[1.430s] writing ../../build/task_3/task_3.egg-info/PKG-INFO
+[1.430s] writing dependency_links to ../../build/task_3/task_3.egg-info/dependency_links.txt
+[1.430s] writing entry points to ../../build/task_3/task_3.egg-info/entry_points.txt
+[1.430s] writing requirements to ../../build/task_3/task_3.egg-info/requires.txt
+[1.431s] writing top-level names to ../../build/task_3/task_3.egg-info/top_level.txt
+[1.433s] reading manifest file '../../build/task_3/task_3.egg-info/SOURCES.txt'
+[1.433s] adding license file 'LICENSE'
+[1.434s] writing manifest file '../../build/task_3/task_3.egg-info/SOURCES.txt'
+[1.434s] running build
+[1.434s] running build_py
+[1.435s] running install
+[1.435s] running install_lib
+[1.436s] running install_data
+[1.436s] running install_egg_info
+[1.438s] removing '/home/albert/ros2_ws/install/task_3/lib/python3.10/site-packages/task_3-0.0.0-py3.10.egg-info' (and everything under it)
+[1.438s] Copying ../../build/task_3/task_3.egg-info to /home/albert/ros2_ws/install/task_3/lib/python3.10/site-packages/task_3-0.0.0-py3.10.egg-info
+[1.439s] running install_scripts
+[1.459s] Installing pid_speed_controller script to /home/albert/ros2_ws/install/task_3/lib/task_3
+[1.459s] writing list of installed files to '/home/albert/ros2_ws/build/task_3/install.log'

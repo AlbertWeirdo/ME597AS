@@ -1,0 +1,18 @@
+[1.214s] Invoking command in '/home/albert/ros2_ws/src/task_1': PYTHONPATH=/home/albert/ros2_ws/build/task_1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/albert/ros2_ws/install/task_1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/task_1 build --build-base /home/albert/ros2_ws/build/task_1/build install --record /home/albert/ros2_ws/build/task_1/install.log --single-version-externally-managed install_data
+[1.469s] running egg_info
+[1.469s] writing ../../build/task_1/task_1.egg-info/PKG-INFO
+[1.470s] writing dependency_links to ../../build/task_1/task_1.egg-info/dependency_links.txt
+[1.470s] writing entry points to ../../build/task_1/task_1.egg-info/entry_points.txt
+[1.470s] writing requirements to ../../build/task_1/task_1.egg-info/requires.txt
+[1.470s] writing top-level names to ../../build/task_1/task_1.egg-info/top_level.txt
+[1.471s] reading manifest file '../../build/task_1/task_1.egg-info/SOURCES.txt'
+[1.472s] adding license file 'LICENSE'
+[1.472s] writing manifest file '../../build/task_1/task_1.egg-info/SOURCES.txt'
+[1.472s] running build
+[1.473s] running build_py
+[1.473s] running install
+[1.473s] running install_lib
+[1.474s] running install_data
+[1.475s] copying launch/pub_sub_launch.py -> /home/albert/ros2_ws/install/task_1/share/task_1/launch
+[1.475s] error: could not delete '/home/albert/ros2_ws/install/task_1/share/task_1/launch/pub_sub_launch.py': Is a directory
+[1.494s] Invoked command in '/home/albert/ros2_ws/src/task_1' returned '1': PYTHONPATH=/home/albert/ros2_ws/build/task_1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/albert/ros2_ws/install/task_1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/task_1 build --build-base /home/albert/ros2_ws/build/task_1/build install --record /home/albert/ros2_ws/build/task_1/install.log --single-version-externally-managed install_data

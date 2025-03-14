@@ -1,0 +1,24 @@
+[1.519s] Invoking command in '/home/albert/ros2_ws/src/task_4': PYTHONPATH=/home/albert/ros2_ws/build/task_4/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/albert/ros2_ws/install/task_4/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/task_4 build --build-base /home/albert/ros2_ws/build/task_4/build install --record /home/albert/ros2_ws/build/task_4/install.log --single-version-externally-managed install_data
+[2.171s] running egg_info
+[2.175s] writing ../../build/task_4/task_4.egg-info/PKG-INFO
+[2.176s] writing dependency_links to ../../build/task_4/task_4.egg-info/dependency_links.txt
+[2.176s] writing entry points to ../../build/task_4/task_4.egg-info/entry_points.txt
+[2.176s] writing requirements to ../../build/task_4/task_4.egg-info/requires.txt
+[2.177s] writing top-level names to ../../build/task_4/task_4.egg-info/top_level.txt
+[2.184s] reading manifest file '../../build/task_4/task_4.egg-info/SOURCES.txt'
+[2.185s] writing manifest file '../../build/task_4/task_4.egg-info/SOURCES.txt'
+[2.185s] running build
+[2.185s] running build_py
+[2.186s] copying task_4/auto_navigator.py -> /home/albert/ros2_ws/build/task_4/build/lib/task_4
+[2.186s] running install
+[2.188s] running install_lib
+[2.190s] copying /home/albert/ros2_ws/build/task_4/build/lib/task_4/auto_navigator.py -> /home/albert/ros2_ws/install/task_4/lib/python3.10/site-packages/task_4
+[2.191s] byte-compiling /home/albert/ros2_ws/install/task_4/lib/python3.10/site-packages/task_4/auto_navigator.py to auto_navigator.cpython-310.pyc
+[2.202s] running install_data
+[2.202s] running install_egg_info
+[2.209s] removing '/home/albert/ros2_ws/install/task_4/lib/python3.10/site-packages/task_4-0.0.0-py3.10.egg-info' (and everything under it)
+[2.210s] Copying ../../build/task_4/task_4.egg-info to /home/albert/ros2_ws/install/task_4/lib/python3.10/site-packages/task_4-0.0.0-py3.10.egg-info
+[2.211s] running install_scripts
+[2.265s] Installing Navigation script to /home/albert/ros2_ws/install/task_4/lib/task_4
+[2.266s] writing list of installed files to '/home/albert/ros2_ws/build/task_4/install.log'
+[2.364s] Invoked command in '/home/albert/ros2_ws/src/task_4' returned '0': PYTHONPATH=/home/albert/ros2_ws/build/task_4/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/albert/ros2_ws/install/task_4/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/task_4 build --build-base /home/albert/ros2_ws/build/task_4/build install --record /home/albert/ros2_ws/build/task_4/install.log --single-version-externally-managed install_data

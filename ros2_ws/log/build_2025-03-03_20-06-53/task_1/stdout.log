@@ -1,0 +1,18 @@
+running egg_info
+writing ../../build/task_1/task_1.egg-info/PKG-INFO
+writing dependency_links to ../../build/task_1/task_1.egg-info/dependency_links.txt
+writing entry points to ../../build/task_1/task_1.egg-info/entry_points.txt
+writing requirements to ../../build/task_1/task_1.egg-info/requires.txt
+writing top-level names to ../../build/task_1/task_1.egg-info/top_level.txt
+reading manifest file '../../build/task_1/task_1.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/task_1/task_1.egg-info/SOURCES.txt'
+running build
+running build_py
+copying task_1/doubler_sub.py -> /home/albert/ros2_ws/build/task_1/build/lib/task_1
+running install
+running install_lib
+copying /home/albert/ros2_ws/build/task_1/build/lib/task_1/doubler_sub.py -> /home/albert/ros2_ws/install/task_1/lib/python3.10/site-packages/task_1
+byte-compiling /home/albert/ros2_ws/install/task_1/lib/python3.10/site-packages/task_1/doubler_sub.py to doubler_sub.cpython-310.pyc
+running install_data
+copying launch/pub_sub_launch.py -> /home/albert/ros2_ws/install/task_1/share/task_1/launch

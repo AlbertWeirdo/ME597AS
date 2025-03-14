@@ -1,0 +1,182 @@
+[0.025s] Invoking command in '/home/albert/ros2_ws/build/task_2_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/albert/ros2_ws/install/task_4:/home/albert/ros2_ws/install/task_3:/home/albert/ros2_ws/install/task_2:/home/albert/ros2_ws/install/task_1:/opt/ros/humble /usr/bin/cmake --build /home/albert/ros2_ws/build/task_2_interfaces -- -j12 -l12
+[0.581s] [  5%] Built target task_2_interfaces__cpp
+[0.581s] [ 12%] Built target task_2_interfaces__rosidl_generator_c
+[0.581s] [ 12%] Built target ament_cmake_python_copy_task_2_interfaces
+[0.582s] [ 23%] Built target task_2_interfaces__rosidl_typesupport_introspection_c
+[0.582s] [ 33%] Built target task_2_interfaces__rosidl_typesupport_fastrtps_c
+[0.582s] [ 43%] Built target task_2_interfaces__rosidl_typesupport_c
+[0.582s] [ 53%] Built target task_2_interfaces__rosidl_typesupport_introspection_cpp
+[0.582s] [ 64%] Built target task_2_interfaces__rosidl_typesupport_cpp
+[0.582s] [ 74%] Built target task_2_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.582s] [ 74%] Built target task_2_interfaces
+[0.582s] [ 76%] Built target task_2_interfaces__py
+[0.582s] [ 84%] Built target task_2_interfaces__rosidl_generator_py
+[0.582s] [100%] Built target task_2_interfaces__rosidl_typesupport_c__pyext
+[0.582s] [100%] Built target task_2_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.582s] [100%] Built target task_2_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.582s] running egg_info
+[0.583s] writing task_2_interfaces.egg-info/PKG-INFO
+[0.583s] writing dependency_links to task_2_interfaces.egg-info/dependency_links.txt
+[0.583s] writing top-level names to task_2_interfaces.egg-info/top_level.txt
+[0.583s] reading manifest file 'task_2_interfaces.egg-info/SOURCES.txt'
+[0.583s] writing manifest file 'task_2_interfaces.egg-info/SOURCES.txt'
+[0.583s] [100%] Built target ament_cmake_python_build_task_2_interfaces_egg
+[0.818s] Invoked command in '/home/albert/ros2_ws/build/task_2_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/albert/ros2_ws/install/task_4:/home/albert/ros2_ws/install/task_3:/home/albert/ros2_ws/install/task_2:/home/albert/ros2_ws/install/task_1:/opt/ros/humble /usr/bin/cmake --build /home/albert/ros2_ws/build/task_2_interfaces -- -j12 -l12
+[0.825s] Invoking command in '/home/albert/ros2_ws/build/task_2_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/albert/ros2_ws/install/task_4:/home/albert/ros2_ws/install/task_3:/home/albert/ros2_ws/install/task_2:/home/albert/ros2_ws/install/task_1:/opt/ros/humble /usr/bin/cmake --install /home/albert/ros2_ws/build/task_2_interfaces
+[0.833s] -- Install configuration: ""
+[0.833s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/share/ament_index/resource_index/rosidl_interfaces/task_2_interfaces
+[0.834s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces
+[0.834s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg
+[0.834s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg/detail
+[0.834s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg/detail/joint_data__functions.h
+[0.834s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg/detail/joint_data__functions.c
+[0.834s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg/detail/joint_data__struct.h
+[0.834s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg/detail/joint_data__type_support.h
+[0.834s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg/joint_data.h
+[0.834s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg/rosidl_generator_c__visibility_control.h
+[0.835s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/srv
+[0.835s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/srv/detail
+[0.835s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/srv/detail/joint_state__type_support.h
+[0.835s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/srv/detail/joint_state__struct.h
+[0.835s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/srv/detail/joint_state__functions.c
+[0.835s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/srv/detail/joint_state__functions.h
+[0.835s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/srv/joint_state.h
+[0.835s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/share/task_2_interfaces/environment/library_path.sh
+[0.836s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/share/task_2_interfaces/environment/library_path.dsv
+[0.836s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/lib/libtask_2_interfaces__rosidl_generator_c.so
+[0.836s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces
+[0.836s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg
+[0.836s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg/detail
+[0.836s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg/detail/joint_data__rosidl_typesupport_fastrtps_c.h
+[0.836s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.836s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/srv
+[0.836s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/srv/detail
+[0.837s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/srv/detail/joint_state__rosidl_typesupport_fastrtps_c.h
+[0.837s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/lib/libtask_2_interfaces__rosidl_typesupport_fastrtps_c.so
+[0.837s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces
+[0.837s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg
+[0.837s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg/detail
+[0.837s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg/detail/joint_data__type_support.hpp
+[0.837s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg/detail/joint_data__traits.hpp
+[0.837s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg/detail/joint_data__struct.hpp
+[0.837s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg/detail/joint_data__builder.hpp
+[0.838s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.838s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg/joint_data.hpp
+[0.838s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/srv
+[0.838s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/srv/detail
+[0.838s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/srv/detail/joint_state__struct.hpp
+[0.838s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/srv/detail/joint_state__type_support.hpp
+[0.838s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/srv/detail/joint_state__builder.hpp
+[0.838s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/srv/detail/joint_state__traits.hpp
+[0.838s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/srv/joint_state.hpp
+[0.838s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces
+[0.838s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg
+[0.839s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg/detail
+[0.839s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg/detail/joint_data__rosidl_typesupport_fastrtps_cpp.hpp
+[0.839s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg/detail/dds_fastrtps
+[0.839s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.839s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/srv
+[0.839s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/srv/detail
+[0.839s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/srv/detail/dds_fastrtps
+[0.839s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/srv/detail/joint_state__rosidl_typesupport_fastrtps_cpp.hpp
+[0.839s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/lib/libtask_2_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[0.839s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces
+[0.840s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg
+[0.840s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg/detail
+[0.840s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg/detail/joint_data__type_support.c
+[0.840s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg/detail/joint_data__rosidl_typesupport_introspection_c.h
+[0.840s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.840s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/srv
+[0.840s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/srv/detail
+[0.840s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/srv/detail/joint_state__rosidl_typesupport_introspection_c.h
+[0.840s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/srv/detail/joint_state__type_support.c
+[0.840s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/lib/libtask_2_interfaces__rosidl_typesupport_introspection_c.so
+[0.840s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/lib/libtask_2_interfaces__rosidl_typesupport_c.so
+[0.841s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces
+[0.841s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg
+[0.841s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg/detail
+[0.841s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg/detail/joint_data__type_support.cpp
+[0.841s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/msg/detail/joint_data__rosidl_typesupport_introspection_cpp.hpp
+[0.841s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/srv
+[0.841s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/srv/detail
+[0.841s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/srv/detail/joint_state__rosidl_typesupport_introspection_cpp.hpp
+[0.841s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/include/task_2_interfaces/task_2_interfaces/srv/detail/joint_state__type_support.cpp
+[0.841s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/lib/libtask_2_interfaces__rosidl_typesupport_introspection_cpp.so
+[0.841s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/lib/libtask_2_interfaces__rosidl_typesupport_cpp.so
+[0.841s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/share/task_2_interfaces/environment/pythonpath.sh
+[0.842s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/share/task_2_interfaces/environment/pythonpath.dsv
+[0.842s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/local/lib/python3.10/dist-packages/task_2_interfaces-0.0.0-py3.10.egg-info
+[0.842s] -- Installing: /home/albert/ros2_ws/install/task_2_interfaces/local/lib/python3.10/dist-packages/task_2_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.842s] -- Installing: /home/albert/ros2_ws/install/task_2_interfaces/local/lib/python3.10/dist-packages/task_2_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[0.842s] -- Installing: /home/albert/ros2_ws/install/task_2_interfaces/local/lib/python3.10/dist-packages/task_2_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.842s] -- Installing: /home/albert/ros2_ws/install/task_2_interfaces/local/lib/python3.10/dist-packages/task_2_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[0.842s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/local/lib/python3.10/dist-packages/task_2_interfaces
+[0.842s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/local/lib/python3.10/dist-packages/task_2_interfaces/_task_2_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[0.842s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/local/lib/python3.10/dist-packages/task_2_interfaces/msg
+[0.842s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/local/lib/python3.10/dist-packages/task_2_interfaces/msg/__init__.py
+[0.842s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/local/lib/python3.10/dist-packages/task_2_interfaces/msg/_joint_data_s.c
+[0.843s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/local/lib/python3.10/dist-packages/task_2_interfaces/msg/_joint_data.py
+[0.843s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/local/lib/python3.10/dist-packages/task_2_interfaces/_task_2_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.843s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/local/lib/python3.10/dist-packages/task_2_interfaces/task_2_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.843s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/local/lib/python3.10/dist-packages/task_2_interfaces/libtask_2_interfaces__rosidl_generator_py.so
+[0.843s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/local/lib/python3.10/dist-packages/task_2_interfaces/task_2_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.843s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/local/lib/python3.10/dist-packages/task_2_interfaces/task_2_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.843s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/local/lib/python3.10/dist-packages/task_2_interfaces/__init__.py
+[0.843s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/local/lib/python3.10/dist-packages/task_2_interfaces/srv
+[0.843s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/local/lib/python3.10/dist-packages/task_2_interfaces/srv/_joint_state_s.c
+[0.843s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/local/lib/python3.10/dist-packages/task_2_interfaces/srv/__init__.py
+[0.843s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/local/lib/python3.10/dist-packages/task_2_interfaces/srv/_joint_state.py
+[0.844s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/local/lib/python3.10/dist-packages/task_2_interfaces/_task_2_interfaces_s.ep.rosidl_typesupport_c.c
+[0.868s] Listing '/home/albert/ros2_ws/install/task_2_interfaces/local/lib/python3.10/dist-packages/task_2_interfaces'...
+[0.868s] Listing '/home/albert/ros2_ws/install/task_2_interfaces/local/lib/python3.10/dist-packages/task_2_interfaces/msg'...
+[0.868s] Listing '/home/albert/ros2_ws/install/task_2_interfaces/local/lib/python3.10/dist-packages/task_2_interfaces/srv'...
+[0.874s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/local/lib/python3.10/dist-packages/task_2_interfaces/task_2_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.874s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/local/lib/python3.10/dist-packages/task_2_interfaces/task_2_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.874s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/local/lib/python3.10/dist-packages/task_2_interfaces/task_2_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.875s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/lib/libtask_2_interfaces__rosidl_generator_py.so
+[0.875s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/share/task_2_interfaces/msg/JointData.idl
+[0.875s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/share/task_2_interfaces/srv/JointState.idl
+[0.875s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/share/task_2_interfaces/msg/JointData.msg
+[0.875s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/share/task_2_interfaces/srv/JointState.srv
+[0.875s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/share/task_2_interfaces/srv/JointState_Request.msg
+[0.875s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/share/task_2_interfaces/srv/JointState_Response.msg
+[0.876s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/share/ament_index/resource_index/package_run_dependencies/task_2_interfaces
+[0.876s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/share/ament_index/resource_index/parent_prefix_path/task_2_interfaces
+[0.876s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/share/task_2_interfaces/environment/ament_prefix_path.sh
+[0.877s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/share/task_2_interfaces/environment/ament_prefix_path.dsv
+[0.877s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/share/task_2_interfaces/environment/path.sh
+[0.877s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/share/task_2_interfaces/environment/path.dsv
+[0.877s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/share/task_2_interfaces/local_setup.bash
+[0.877s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/share/task_2_interfaces/local_setup.sh
+[0.877s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/share/task_2_interfaces/local_setup.zsh
+[0.877s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/share/task_2_interfaces/local_setup.dsv
+[0.877s] -- Installing: /home/albert/ros2_ws/install/task_2_interfaces/share/task_2_interfaces/package.dsv
+[0.877s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/share/ament_index/resource_index/packages/task_2_interfaces
+[0.877s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/share/task_2_interfaces/cmake/export_task_2_interfaces__rosidl_generator_cExport.cmake
+[0.877s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/share/task_2_interfaces/cmake/export_task_2_interfaces__rosidl_generator_cExport-noconfig.cmake
+[0.877s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/share/task_2_interfaces/cmake/export_task_2_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[0.877s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/share/task_2_interfaces/cmake/export_task_2_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.877s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/share/task_2_interfaces/cmake/export_task_2_interfaces__rosidl_generator_cppExport.cmake
+[0.877s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/share/task_2_interfaces/cmake/export_task_2_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.877s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/share/task_2_interfaces/cmake/export_task_2_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.878s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/share/task_2_interfaces/cmake/task_2_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[0.878s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/share/task_2_interfaces/cmake/task_2_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.878s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/share/task_2_interfaces/cmake/task_2_interfaces__rosidl_typesupport_cExport.cmake
+[0.878s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/share/task_2_interfaces/cmake/task_2_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[0.878s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/share/task_2_interfaces/cmake/task_2_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[0.878s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/share/task_2_interfaces/cmake/task_2_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.878s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/share/task_2_interfaces/cmake/task_2_interfaces__rosidl_typesupport_cppExport.cmake
+[0.878s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/share/task_2_interfaces/cmake/task_2_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[0.878s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/share/task_2_interfaces/cmake/export_task_2_interfaces__rosidl_generator_pyExport.cmake
+[0.878s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/share/task_2_interfaces/cmake/export_task_2_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[0.878s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/share/task_2_interfaces/cmake/rosidl_cmake-extras.cmake
+[0.878s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/share/task_2_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.878s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/share/task_2_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.878s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/share/task_2_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[0.878s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/share/task_2_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[0.878s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/share/task_2_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.879s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/share/task_2_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.879s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/share/task_2_interfaces/cmake/task_2_interfacesConfig.cmake
+[0.879s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/share/task_2_interfaces/cmake/task_2_interfacesConfig-version.cmake
+[0.879s] -- Up-to-date: /home/albert/ros2_ws/install/task_2_interfaces/share/task_2_interfaces/package.xml
+[0.880s] Invoked command in '/home/albert/ros2_ws/build/task_2_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/albert/ros2_ws/install/task_4:/home/albert/ros2_ws/install/task_3:/home/albert/ros2_ws/install/task_2:/home/albert/ros2_ws/install/task_1:/opt/ros/humble /usr/bin/cmake --install /home/albert/ros2_ws/build/task_2_interfaces

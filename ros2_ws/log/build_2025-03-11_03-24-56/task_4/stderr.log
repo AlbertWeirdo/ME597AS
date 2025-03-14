@@ -1,0 +1,5 @@
+  File "/home/albert/ros2_ws/install/task_4/lib/python3.10/site-packages/task_4/auto_navigator.py", line 250
+    print(f'current goal pose: {self.convertFrames(current_goal.pose.position.x, current_goal.pose.position.y, 'NodeToRviz')}')
+                                                                                                                ^^^^^^^^^^
+SyntaxError: f-string: unmatched '('
+

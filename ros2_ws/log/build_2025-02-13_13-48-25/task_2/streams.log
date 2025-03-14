@@ -1,0 +1,25 @@
+[0.621s] Invoking command in '/home/albert/ros2_ws/src/task_2': PYTHONPATH=/home/albert/ros2_ws/build/task_2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/albert/ros2_ws/install/task_2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/task_2 build --build-base /home/albert/ros2_ws/build/task_2/build install --record /home/albert/ros2_ws/build/task_2/install.log --single-version-externally-managed install_data
+[0.808s] running egg_info
+[0.809s] writing ../../build/task_2/task_2.egg-info/PKG-INFO
+[0.809s] writing dependency_links to ../../build/task_2/task_2.egg-info/dependency_links.txt
+[0.809s] writing entry points to ../../build/task_2/task_2.egg-info/entry_points.txt
+[0.809s] writing requirements to ../../build/task_2/task_2.egg-info/requires.txt
+[0.809s] writing top-level names to ../../build/task_2/task_2.egg-info/top_level.txt
+[0.810s] reading manifest file '../../build/task_2/task_2.egg-info/SOURCES.txt'
+[0.811s] adding license file 'LICENSE'
+[0.811s] writing manifest file '../../build/task_2/task_2.egg-info/SOURCES.txt'
+[0.812s] running build
+[0.812s] running build_py
+[0.812s] running install
+[0.812s] running install_lib
+[0.813s] running install_data
+[0.813s] running install_egg_info
+[0.814s] removing '/home/albert/ros2_ws/install/task_2/lib/python3.10/site-packages/task_2-0.0.0-py3.10.egg-info' (and everything under it)
+[0.815s] Copying ../../build/task_2/task_2.egg-info to /home/albert/ros2_ws/install/task_2/lib/python3.10/site-packages/task_2-0.0.0-py3.10.egg-info
+[0.815s] running install_scripts
+[0.831s] Installing client script to /home/albert/ros2_ws/install/task_2/lib/task_2
+[0.831s] Installing listener script to /home/albert/ros2_ws/install/task_2/lib/task_2
+[0.831s] Installing service script to /home/albert/ros2_ws/install/task_2/lib/task_2
+[0.831s] Installing talker script to /home/albert/ros2_ws/install/task_2/lib/task_2
+[0.831s] writing list of installed files to '/home/albert/ros2_ws/build/task_2/install.log'
+[0.848s] Invoked command in '/home/albert/ros2_ws/src/task_2' returned '0': PYTHONPATH=/home/albert/ros2_ws/build/task_2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/albert/ros2_ws/install/task_2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/task_2 build --build-base /home/albert/ros2_ws/build/task_2/build install --record /home/albert/ros2_ws/build/task_2/install.log --single-version-externally-managed install_data

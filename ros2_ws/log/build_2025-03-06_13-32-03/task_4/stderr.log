@@ -1,0 +1,5 @@
+  File "/home/albert/ros2_ws/install/task_4/lib/python3.10/site-packages/task_4/auto_navigator.py", line 206
+    print('goal_pose: {:.4f}, {:.4f}'.format(self.ttbot_pose.pose.position.x, self.ttbot_pose.pose.position.y))            print(self.goal_pose)
+                                                                                                                           ^^^^^
+SyntaxError: invalid syntax
+

@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/task_4/task_4.egg-info/PKG-INFO
+writing dependency_links to ../../build/task_4/task_4.egg-info/dependency_links.txt
+writing entry points to ../../build/task_4/task_4.egg-info/entry_points.txt
+writing requirements to ../../build/task_4/task_4.egg-info/requires.txt
+writing top-level names to ../../build/task_4/task_4.egg-info/top_level.txt
+reading manifest file '../../build/task_4/task_4.egg-info/SOURCES.txt'
+writing manifest file '../../build/task_4/task_4.egg-info/SOURCES.txt'
+running build
+running build_py
+copying task_4/auto_navigator.py -> /home/albert/ros2_ws/build/task_4/build/lib/task_4
+running install
+running install_lib
+copying /home/albert/ros2_ws/build/task_4/build/lib/task_4/auto_navigator.py -> /home/albert/ros2_ws/install/task_4/lib/python3.10/site-packages/task_4
+byte-compiling /home/albert/ros2_ws/install/task_4/lib/python3.10/site-packages/task_4/auto_navigator.py to auto_navigator.cpython-310.pyc
+running install_data
+copying package.xml -> /home/albert/ros2_ws/install/task_4/share/task_4
+running install_egg_info
+removing '/home/albert/ros2_ws/install/task_4/lib/python3.10/site-packages/task_4-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/task_4/task_4.egg-info to /home/albert/ros2_ws/install/task_4/lib/python3.10/site-packages/task_4-0.0.0-py3.10.egg-info
+running install_scripts
+Installing Navigation script to /home/albert/ros2_ws/install/task_4/lib/task_4
+writing list of installed files to '/home/albert/ros2_ws/build/task_4/install.log'

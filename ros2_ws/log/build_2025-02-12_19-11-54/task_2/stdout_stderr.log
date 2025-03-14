@@ -1,0 +1,51 @@
+running egg_info
+creating ../../build/task_2/task_2.egg-info
+writing ../../build/task_2/task_2.egg-info/PKG-INFO
+writing dependency_links to ../../build/task_2/task_2.egg-info/dependency_links.txt
+writing entry points to ../../build/task_2/task_2.egg-info/entry_points.txt
+writing requirements to ../../build/task_2/task_2.egg-info/requires.txt
+writing top-level names to ../../build/task_2/task_2.egg-info/top_level.txt
+writing manifest file '../../build/task_2/task_2.egg-info/SOURCES.txt'
+reading manifest file '../../build/task_2/task_2.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/task_2/task_2.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/albert/ros2_ws/build/task_2/build
+creating /home/albert/ros2_ws/build/task_2/build/lib
+creating /home/albert/ros2_ws/build/task_2/build/lib/task_2
+copying task_2/pub.py -> /home/albert/ros2_ws/build/task_2/build/lib/task_2
+copying task_2/client.py -> /home/albert/ros2_ws/build/task_2/build/lib/task_2
+copying task_2/__init__.py -> /home/albert/ros2_ws/build/task_2/build/lib/task_2
+copying task_2/sub.py -> /home/albert/ros2_ws/build/task_2/build/lib/task_2
+copying task_2/service.py -> /home/albert/ros2_ws/build/task_2/build/lib/task_2
+running install
+running install_lib
+creating /home/albert/ros2_ws/install/task_2/lib/python3.10/site-packages/task_2
+copying /home/albert/ros2_ws/build/task_2/build/lib/task_2/pub.py -> /home/albert/ros2_ws/install/task_2/lib/python3.10/site-packages/task_2
+copying /home/albert/ros2_ws/build/task_2/build/lib/task_2/client.py -> /home/albert/ros2_ws/install/task_2/lib/python3.10/site-packages/task_2
+copying /home/albert/ros2_ws/build/task_2/build/lib/task_2/__init__.py -> /home/albert/ros2_ws/install/task_2/lib/python3.10/site-packages/task_2
+copying /home/albert/ros2_ws/build/task_2/build/lib/task_2/sub.py -> /home/albert/ros2_ws/install/task_2/lib/python3.10/site-packages/task_2
+copying /home/albert/ros2_ws/build/task_2/build/lib/task_2/service.py -> /home/albert/ros2_ws/install/task_2/lib/python3.10/site-packages/task_2
+byte-compiling /home/albert/ros2_ws/install/task_2/lib/python3.10/site-packages/task_2/pub.py to pub.cpython-310.pyc
+byte-compiling /home/albert/ros2_ws/install/task_2/lib/python3.10/site-packages/task_2/client.py to client.cpython-310.pyc
+byte-compiling /home/albert/ros2_ws/install/task_2/lib/python3.10/site-packages/task_2/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/albert/ros2_ws/install/task_2/lib/python3.10/site-packages/task_2/sub.py to sub.cpython-310.pyc
+byte-compiling /home/albert/ros2_ws/install/task_2/lib/python3.10/site-packages/task_2/service.py to service.cpython-310.pyc
+running install_data
+creating /home/albert/ros2_ws/install/task_2/share/ament_index
+creating /home/albert/ros2_ws/install/task_2/share/ament_index/resource_index
+creating /home/albert/ros2_ws/install/task_2/share/ament_index/resource_index/packages
+copying resource/task_2 -> /home/albert/ros2_ws/install/task_2/share/ament_index/resource_index/packages
+copying package.xml -> /home/albert/ros2_ws/install/task_2/share/task_2
+creating /home/albert/ros2_ws/install/task_2/share/task_2/launch
+creating /home/albert/ros2_ws/install/task_2/share/task_2/launch/pub_sub_launch.py
+copying launch/service_launch.py -> /home/albert/ros2_ws/install/task_2/share/task_2/launch/pub_sub_launch.py
+running install_egg_info
+Copying ../../build/task_2/task_2.egg-info to /home/albert/ros2_ws/install/task_2/lib/python3.10/site-packages/task_2-0.0.0-py3.10.egg-info
+running install_scripts
+Installing client script to /home/albert/ros2_ws/install/task_2/lib/task_2
+Installing listener script to /home/albert/ros2_ws/install/task_2/lib/task_2
+Installing service script to /home/albert/ros2_ws/install/task_2/lib/task_2
+Installing talker script to /home/albert/ros2_ws/install/task_2/lib/task_2
+writing list of installed files to '/home/albert/ros2_ws/build/task_2/install.log'

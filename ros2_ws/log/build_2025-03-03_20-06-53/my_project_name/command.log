@@ -1,0 +1,4 @@
+Invoking command in '/home/albert/ros2_ws/build/my_project_name': /usr/bin/cmake /home/albert/ros2_ws/ME597-Spring2025/1-ROS_2_Basics/Resources/1-Lecture/Demo_2/src -DCMAKE_INSTALL_PREFIX=/home/albert/ros2_ws/install/my_project_name
+Invoked command in '/home/albert/ros2_ws/build/my_project_name' returned '0': /usr/bin/cmake /home/albert/ros2_ws/ME597-Spring2025/1-ROS_2_Basics/Resources/1-Lecture/Demo_2/src -DCMAKE_INSTALL_PREFIX=/home/albert/ros2_ws/install/my_project_name
+Invoking command in '/home/albert/ros2_ws/build/my_project_name': /usr/bin/cmake --build /home/albert/ros2_ws/build/my_project_name -- -j12 -l12
+Invoked command in '/home/albert/ros2_ws/build/my_project_name' returned '0': /usr/bin/cmake --build /home/albert/ros2_ws/build/my_project_name -- -j12 -l12

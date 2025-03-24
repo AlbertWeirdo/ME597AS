@@ -1,0 +1,4 @@
+gmake[2]: *** Deleting file 'my_executable'
+gmake[2]: *** [CMakeFiles/my_executable.dir/build.make:97: my_executable] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:83: CMakeFiles/my_executable.dir/all] Interrupt
+gmake: *** [Makefile:91: all] Interrupt

@@ -1,0 +1,6 @@
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/albert/ros2_ws/build/my_project_name
+[35m[1mConsolidate compiler generated dependencies of target my_executable[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/my_executable.dir/main.cpp.o[0m
+[100%] [32m[1mLinking CXX executable my_executable[0m

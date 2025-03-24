@@ -59,6 +59,7 @@ class Navigation(Node):
         
         # read map
         self.mp = MapProcessor('/home/albert/ros2_ws/src/task_4/maps/sync_classroom_map')
+        # self.mp = MapProcessor('/home/albert/ros2_ws/src/task_4/maps/classroom_map')
         self.kr = self.mp.rect_kernel(9,1)      # can adjust the kernel size
         self.mp.inflate_map(self.kr,True)
 
@@ -150,6 +151,7 @@ class Navigation(Node):
         threshold = 0.5
         idxRange = 23
         idxRadius = 0.5
+        # idxRadius = 1.9
         
         # convert the vehicle_pose from Rviz frame to Node frame
         # (vehicle_pose_x, vehicle_pose_y) = self.convertFrames(vehicle_pose.pose.position.x, vehicle_pose.pose.position.y, 'RvizToNode')
@@ -188,26 +190,18 @@ class Navigation(Node):
         return idx
     
     def quaternion_to_yaw(self, q): 
-        qw_normalize = (q.w)/np.sqrt(q.w ** 2 + q.z ** 2 )
-        qz_normalize = (q.z)/np.sqrt(q.w ** 2 + q.z ** 2 )       
-        
-        siny_cosp = 2.0 * (q.y * qw_normalize + q.x * qz_normalize)
-        cosy_cosp = 1.0 - 2.0 * (q.y ** 2 + qz_normalize **2 )
-    
-        return np.arctan2(siny_cosp, cosy_cosp)
-        # arctan2 return value form +pi to -pi
-
-        # qw_normalize = (q.w)/np.sqrt(q.w ** 2 + q.z ** 2 )
-        # print(f'qw : {qw_normalize}')
-        #
-        # return 4 * np.arccos(qw_normalize)
-
-        # qw_normalize = (q.w)/np.sqrt(q.w ** 2 + q.z ** 2 )
-        # qz_normalize = (q.z)/np.sqrt(q.w ** 2 + q.z ** 2 )
-        # return 2 * np.arctan2(qz_normalize, qw_normalize)
+        q_length = np.sqrt( q.x ** 2 + q.y ** 2 + q.z ** 2 + q.w ** 2) 
+        qx_norm = q.x / q_length
+        qy_norm = q.y / q_length
+        qz_norm = q.z / q_length
+        qw_norm = q.w / q_length
+        numerator = 2 * (qw_norm * qz_norm + qx_norm * qy_norm)
+        denominator = 1 - 2 * (qy_norm ** 2 + qz_norm ** 2)
+        yaw = np.arctan2( numerator ,denominator)
+        return yaw
 
 
-    def path_follower(self, vehicle_pose, current_goal_pose):       # should be in the Rviz frame
+    def path_follower(self, vehicle_pose, current_goal_pose, prev_time):       # should be in the Rviz frame
         """! Path follower.
         @param  vehicle_pose           PoseStamped object containing the current vehicle pose.
         @param  current_goal_pose      PoseStamped object containing the current target from the created path. This is different from the global target.
@@ -216,19 +210,18 @@ class Navigation(Node):
         # TODO: IMPLEMENT PATH FOLLOWER
         
         # pid parameters
+        # dont delete the following parameters
         kp_speed = 0.15
-        # kp_speed = 0.4
-        # kp_heading = 0.33
-        kp_heading = 0.1
+        kp_heading = 0.3
         kd_heading = 0.15
-        # kd_heading = 0
         
-        # ki = 0.00002
-        # kd = 0.2
+        # testing parameters
+        # kp_speed = 0.12
+        # kp_heading = 0.3
+        # kd_heading = 0.4
         
-        # convert current_goal_pose into Rviz frame
-        # (current_goal_pose_x, current_goal_pose_y) = self.convertFrames(current_goal_pose.pose.position.x, current_goal_pose.pose.position.y, 'NodeToRviz')
-                
+        current_time = self.get_clock().now().nanoseconds*1e-9
+        
         error=np.sqrt(( vehicle_pose.pose.position.x - current_goal_pose.pose.position.x) ** 2 + ( vehicle_pose.pose.position.y - current_goal_pose.pose.position.y) ** 2)
                  
         speed = kp_speed * error
@@ -238,37 +231,39 @@ class Navigation(Node):
         # heading should be in radian
         # heading_vehicle_yaw = np.quaternion(q_vehicle)
         heading_vehicle_yaw = self.quaternion_to_yaw(q_vehicle)
-        print(f'heading_vehicle_yaw: {heading_vehicle_yaw}')
+        print(f'heading_vehicle_yaw: {heading_vehicle_yaw * 180 / np.pi }')
         
-        heading_difference_vehicl_goal = np.arctan2(-vehicle_pose.pose.position.y + current_goal_pose.pose.position.y, -vehicle_pose.pose.position.x + current_goal_pose.pose.position.x)
-        print(f'heading_difference_vehicl_goal: {heading_difference_vehicl_goal}')
+        heading_difference_vehicl_goal = np.arctan2(current_goal_pose.pose.position.y - vehicle_pose.pose.position.y , current_goal_pose.pose.position.x - vehicle_pose.pose.position.x )
+        print(f'heading_difference_vehicl_goal: {heading_difference_vehicl_goal * 180 / np.pi }')
 
-        heading_error = -(heading_vehicle_yaw - heading_difference_vehicl_goal)
-        print(f'heading_error: {heading_error}')
+        heading_error = heading_difference_vehicl_goal - heading_vehicle_yaw
         
-        if (heading_error >= np.pi):
-            heading_error -= 2 * np.pi
-        elif (heading_error < -np.pi):
-            heading_error += 2 * np.pi
-            
-        print(f'heading_error: {heading_error}')
+        print(f'heading_error: {heading_error * 180 / np.pi }')
+        
+        if heading_error > np.pi:
+            heading_error = -2 * np.pi + heading_error
+        elif heading_error < -np.pi:
+            heading_error = 2 * np.pi + heading_error
+        
+        print(f'heading_error: {heading_error * 180 / np.pi }')
+        
+
         
         print(f'speed: {speed}')
-        
-        if np.abs(heading_error) >= 0.5 * np.pi:
-            speed = 0.0
-            
-        # print(f'speed: {speed}')
+
 
         
-        heading = kp_heading * heading_error + kd_heading* (heading_error - self.prevHeadingError) / 1
+        heading = kp_heading * heading_error + kd_heading* (heading_error - self.prevHeadingError) / (current_time - prev_time)
+        
+        prev_time = current_time
         self.prevHeadingError = heading_error
         
-        print(f'heading: {heading}')
+
+        print(f'heading: {heading * 180 / np.pi}')
                 
         return speed, heading
 
-    def move_ttbot(self, speed, heading):           # should be in the Rviz frame
+    def move_ttbot(self, speed, heading, prev_heading):           # should be in the Rviz frame
         """! Function to move turtlebot passing directly a heading angle and the speed.
         @param  speed     Desired speed.
         @param  heading   Desired yaw angle.
@@ -278,9 +273,15 @@ class Navigation(Node):
         # TODO: IMPLEMENT YOUR LOW-LEVEL CONTROLLER
         # speed=min(0.15, max(-0.15,speed))
 
+        if abs(prev_heading) >= (np.pi / 20) or abs(heading) >= (np.pi / 20):
+            speed = 0.0
+            prev_heading = heading
+            # heading = heading / np.abs(heading) * np.pi / 20
+            heading = heading / 5
         
+
         print(f'speed: {speed}')
-        print(f'heading: {heading}')
+        print(f'heading: {heading * 180 / np.pi}')
 
         # speed = 0.1
         
@@ -295,7 +296,8 @@ class Navigation(Node):
         @param none
         @return none
         """
-        
+        prev_heading = 0
+        prev_time = 0
         while rclpy.ok():
             # Call the spin_once to handle callbacks
             # time.sleep(5)
@@ -332,11 +334,11 @@ class Navigation(Node):
                 print('idx: {:}'.format(idx))
                 current_goal = self.path.poses[idx]
                 # current_goal_pose = self.convertFrames(current_goal.pose.position.x, current_goal.pose.position.y, 'NodeToRviz')
-                print(f'current goal pose: {current_goal}')
+                print(f'current goal pose: {current_goal.pose.position}')
                 # print(f'vehicle pose: {self.ttbot_pose}')
-
-                speed, heading = self.path_follower(self.ttbot_pose, current_goal)
-                self.move_ttbot(speed, heading)
+                
+                speed, heading = self.path_follower(self.ttbot_pose, current_goal, prev_time)
+                self.move_ttbot(speed, heading, prev_heading)
                 
             print('before sleep') 
             # self.rate.sleep()

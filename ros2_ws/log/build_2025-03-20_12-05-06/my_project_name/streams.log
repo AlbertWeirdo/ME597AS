@@ -1,0 +1,11 @@
+[0.029s] Invoking command in '/home/albert/ros2_ws/build/my_project_name': /usr/bin/cmake --build /home/albert/ros2_ws/build/my_project_name -- -j12 -l12
+[0.637s] -- Configuring done
+[0.637s] -- Generating done
+[0.637s] -- Build files have been written to: /home/albert/ros2_ws/build/my_project_name
+[0.637s] [35m[1mConsolidate compiler generated dependencies of target my_executable[0m
+[0.637s] [ 50%] [32mBuilding CXX object CMakeFiles/my_executable.dir/main.cpp.o[0m
+[0.637s] [100%] [32m[1mLinking CXX executable my_executable[0m
+[0.637s] gmake[2]: *** Deleting file 'my_executable'
+[0.637s] gmake[2]: *** [CMakeFiles/my_executable.dir/build.make:97: my_executable] Interrupt
+[0.637s] gmake[1]: *** [CMakeFiles/Makefile2:83: CMakeFiles/my_executable.dir/all] Interrupt
+[0.638s] gmake: *** [Makefile:91: all] Interrupt

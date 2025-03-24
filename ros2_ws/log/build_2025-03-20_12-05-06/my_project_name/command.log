@@ -1,0 +1,1 @@
+Invoking command in '/home/albert/ros2_ws/build/my_project_name': /usr/bin/cmake --build /home/albert/ros2_ws/build/my_project_name -- -j12 -l12

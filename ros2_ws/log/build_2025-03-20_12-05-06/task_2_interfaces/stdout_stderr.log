@@ -1,0 +1,23 @@
+[  2%] Built target task_2_interfaces__cpp
+[ 12%] Built target task_2_interfaces__rosidl_generator_c
+[ 12%] Built target ament_cmake_python_copy_task_2_interfaces
+[ 23%] Built target task_2_interfaces__rosidl_typesupport_cpp
+[ 33%] Built target task_2_interfaces__rosidl_typesupport_introspection_cpp
+[ 43%] Built target task_2_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 53%] Built target task_2_interfaces__rosidl_typesupport_c
+[ 64%] Built target task_2_interfaces__rosidl_typesupport_introspection_c
+[ 74%] Built target task_2_interfaces__rosidl_typesupport_fastrtps_c
+[ 74%] Built target task_2_interfaces
+[ 76%] Built target task_2_interfaces__py
+[ 84%] Built target task_2_interfaces__rosidl_generator_py
+[ 89%] Built target task_2_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[100%] Built target task_2_interfaces__rosidl_typesupport_c__pyext
+[100%] Built target task_2_interfaces__rosidl_typesupport_introspection_c__pyext
+running egg_info
+writing task_2_interfaces.egg-info/PKG-INFO
+writing dependency_links to task_2_interfaces.egg-info/dependency_links.txt
+writing top-level names to task_2_interfaces.egg-info/top_level.txt
+reading manifest file 'task_2_interfaces.egg-info/SOURCES.txt'
+writing manifest file 'task_2_interfaces.egg-info/SOURCES.txt'
+gmake[1]: *** [CMakeFiles/Makefile2:448: CMakeFiles/ament_cmake_python_build_task_2_interfaces_egg.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

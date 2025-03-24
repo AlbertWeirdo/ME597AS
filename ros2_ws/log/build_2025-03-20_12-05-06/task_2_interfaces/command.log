@@ -1,0 +1,1 @@
+Invoking command in '/home/albert/ros2_ws/build/task_2_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/albert/ros2_ws/install/task_4:/home/albert/ros2_ws/install/task_3:/home/albert/ros2_ws/install/task_2:/home/albert/ros2_ws/install/task_1:/opt/ros/humble /usr/bin/cmake --build /home/albert/ros2_ws/build/task_2_interfaces -- -j12 -l12

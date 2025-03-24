@@ -9,7 +9,7 @@ setup.py
 ../../build/task_4/task_4.egg-info/top_level.txt
 ../../build/task_4/task_4.egg-info/zip-safe
 launch/gen_sync_map_launch.py
-launch/navigator_launch.py
+launch/turtlebot4_navigator.launch.py
 launch/view_robot.launch.py
 maps/classroom_map.pgm
 maps/classroom_map.yaml

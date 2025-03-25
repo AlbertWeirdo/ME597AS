@@ -9,6 +9,7 @@
 /home/albert/ros2_ws/install/task_4/share/task_4/launch/turtlebot4_navigator.launch.py
 /home/albert/ros2_ws/install/task_4/share/task_4/launch/view_robot.launch.py
 /home/albert/ros2_ws/install/task_4/share/task_4/launch/gen_sync_map_launch.py
+/home/albert/ros2_ws/install/task_4/share/task_4/launch/navigator_launch.py
 /home/albert/ros2_ws/install/task_4/share/task_4/rviz/robot.rviz
 /home/albert/ros2_ws/install/task_4/share/task_4/maps/classroom_map.pgm
 /home/albert/ros2_ws/install/task_4/share/task_4/maps/classroom_map.yaml

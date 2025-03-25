@@ -47,20 +47,21 @@ class Navigation(Node):
 
         # Subscribers
         self.create_subscription(PoseStamped, '/move_base_simple/goal', self.__goal_pose_cbk, 10)
-        self.create_subscription(PoseWithCovarianceStamped, '/amcl_pose', self.__ttbot_pose_cbk, 10)
+        self.create_subscription(PoseWithCovarianceStamped, '/robot/amcl_pose', self.__ttbot_pose_cbk, 10)
 
         # Publishers
-        self.path_pub = self.create_publisher(Path, 'global_plan', 10)
-        self.cmd_vel_pub = self.create_publisher(Twist, 'cmd_vel', 10)
+        self.path_pub = self.create_publisher(Path, '/global_plan', 10)
+        self.cmd_vel_pub = self.create_publisher(Twist, '/robot/cmd_vel', 10)
         self.calc_time_pub = self.create_publisher(Float32, 'astar_time',10) #DO NOT MODIFY
 
         # Node rate
         self.rate = self.create_rate(10)
         
         # read map
-        self.mp = MapProcessor('/home/albert/ros2_ws/src/task_4/maps/sync_classroom_map')
-        # self.mp = MapProcessor('/home/albert/ros2_ws/src/task_4/maps/classroom_map')
-        self.kr = self.mp.rect_kernel(9,1)      # can adjust the kernel size
+        # self.mp = MapProcessor('/home/albert/ros2_ws/src/task_4/maps/sync_classroom_map')
+        self.mp = MapProcessor('/home/albert/ros2_ws/src/task_4/maps/classroom_map')
+        # self.kr = self.mp.rect_kernel(10,1)      # can adjust the kernel size
+        self.kr = self.mp.rect_kernel(5,1)      # can adjust the kernel size
         self.mp.inflate_map(self.kr,True)
 
         self.mp.get_graph_from_map()
@@ -123,10 +124,13 @@ class Navigation(Node):
         
         self.mp.map_graph.root = f'{start_pose_y},{start_pose_x}'
         self.mp.map_graph.end = f'{end_pose_y},{end_pose_x}'
+        start = float(self.get_clock().now().nanoseconds*1e-9)
         aStar = AStar(self.mp.map_graph)
         aStar.solve(self.mp.map_graph.g[self.mp.map_graph.root],self.mp.map_graph.g[self.mp.map_graph.end])
         path_node_frame = aStar.reconstruct_path(sn = self.mp.map_graph.g[self.mp.map_graph.root], en = self.mp.map_graph.g[self.mp.map_graph.end], Path = path_Rviz_frame)
         path_arr_as = self.mp.draw_path(path_node_frame)
+        end = float(self.get_clock().now().nanoseconds*1e-9)
+        print(f'Astar calculation time: {end - start}')
         fig, ax = plt.subplots()  # Create a single plot
         ax.imshow(path_arr_as)
         ax.set_title('Path A*')
@@ -345,7 +349,30 @@ class Navigation(Node):
             time.sleep(1)
             print('after sleep')
             # Sleep for the rate to control loop timing
-                
+    # # for sync_class_map  
+    # def convertFrames(self,x, y, args = None):
+    #     # origin of node (0,0) top left 
+    #     # origin of Rviz (-5.39,-6.29)
+    #     # self.mp.map.map_im._size()
+    #     # self.mp.map.map_df
+    #     # self.mp.map.limits
+    #     if args == 'RvizToNode':
+    #         x = 0 + ((x + 5.39) / (299 * self.mp.map.map_df.resolution[0])) * self.mp.map.map_im._size[0]
+    #         x = max( min(round(x), self.mp.map.map_im._size[0]-1), 0)
+    #         y = 0 + (1 - (y + 6.29) / (210 * self.mp.map.map_df.resolution[0])) * self.mp.map.map_im._size[1]
+    #         y = max( min(round(y), self.mp.map.map_im._size[1]-1), 0)
+    #         return x, y
+        
+    #     elif args == 'NodeToRviz':
+    #         x = -5.39 + ((x - 0) / self.mp.map.map_im._size[0]) * 299 * self.mp.map.map_df.resolution[0]
+    #         x = max(min(round(x, 2), -5.39 + 299 * self.mp.map.map_df.resolution[0]), -5.39)
+    #         y = -6.29 + (1- (y / self.mp.map.map_im._size[1])) * 210 * self.mp.map.map_df.resolution[0]
+    #         y = max(min(round(y, 2), -6.29 + 210 * self.mp.map.map_df.resolution[0]), -6.29)
+    #         return x, y
+    #     else:
+    #         pass
+    
+    # for class_map  
     def convertFrames(self,x, y, args = None):
         # origin of node (0,0) top left 
         # origin of Rviz (-5.39,-6.29)
@@ -353,17 +380,17 @@ class Navigation(Node):
         # self.mp.map.map_df
         # self.mp.map.limits
         if args == 'RvizToNode':
-            x = 0 + ((x + 5.39) / (299 * self.mp.map.map_df.resolution[0])) * self.mp.map.map_im._size[0]
+            x = 0 + ((x + 5.4) / (63 * self.mp.map.map_df.resolution[0])) * self.mp.map.map_im._size[0]
             x = max( min(round(x), self.mp.map.map_im._size[0]-1), 0)
-            y = 0 + (1 - (y + 6.29) / (210 * self.mp.map.map_df.resolution[0])) * self.mp.map.map_im._size[1]
+            y = 0 + (1 - (y + 18.9) / (63 * self.mp.map.map_df.resolution[0])) * self.mp.map.map_im._size[1]
             y = max( min(round(y), self.mp.map.map_im._size[1]-1), 0)
             return x, y
         
         elif args == 'NodeToRviz':
-            x = -5.39 + ((x - 0) / self.mp.map.map_im._size[0]) * 299 * self.mp.map.map_df.resolution[0]
-            x = max(min(round(x, 2), -5.39 + 299 * self.mp.map.map_df.resolution[0]), -5.39)
-            y = -6.29 + (1- (y / self.mp.map.map_im._size[1])) * 210 * self.mp.map.map_df.resolution[0]
-            y = max(min(round(y, 2), -6.29 + 210 * self.mp.map.map_df.resolution[0]), -6.29)
+            x = -5.4 + ((x - 0) / self.mp.map.map_im._size[0]) * 63 * self.mp.map.map_df.resolution[0]
+            x = max(min(round(x, 2), -5.4 + 63 * self.mp.map.map_df.resolution[0]), -5.4)
+            y = -18.9 + (1- (y / self.mp.map.map_im._size[1])) * 63 * self.mp.map.map_df.resolution[0]
+            y = max(min(round(y, 2), -18.9 + 63 * self.mp.map.map_df.resolution[0]), -18.9)
             return x, y
         else:
             pass

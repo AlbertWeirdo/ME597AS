@@ -1,0 +1,61 @@
+[0.000000] (-) TimerEvent: {}
+[0.000264] (-) JobUnselected: {'identifier': 'cv_bridge'}
+[0.000300] (-) JobUnselected: {'identifier': 'image_geometry'}
+[0.000329] (-) JobUnselected: {'identifier': 'my_project_name'}
+[0.000346] (-) JobUnselected: {'identifier': 'opencv_tests'}
+[0.000361] (-) JobUnselected: {'identifier': 'task_1'}
+[0.000375] (-) JobUnselected: {'identifier': 'task_2'}
+[0.000389] (-) JobUnselected: {'identifier': 'task_2_interfaces'}
+[0.000403] (-) JobUnselected: {'identifier': 'task_3'}
+[0.000417] (-) JobUnselected: {'identifier': 'task_4'}
+[0.000430] (-) JobUnselected: {'identifier': 'vision_opencv'}
+[0.000446] (task_5) JobQueued: {'identifier': 'task_5', 'dependencies': OrderedDict([('cv_bridge', '/home/albert/ros2_ws/install/cv_bridge')])}
+[0.000465] (task_5) JobStarted: {'identifier': 'task_5'}
+[0.099516] (-) TimerEvent: {}
+[0.199715] (-) TimerEvent: {}
+[0.299930] (-) TimerEvent: {}
+[0.400204] (-) TimerEvent: {}
+[0.500508] (-) TimerEvent: {}
+[0.600783] (-) TimerEvent: {}
+[0.653357] (task_5) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/task_5', 'build', '--build-base', '/home/albert/ros2_ws/build/task_5/build', 'install', '--record', '/home/albert/ros2_ws/build/task_5/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/albert/ros2_ws/src/task_5', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'albert', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/albert', 'CHROME_DESKTOP': 'code.desktop', 'TERM_PROGRAM_VERSION': '1.97.2', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1520', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '1710', 'BUNDLED_DEBUGPY_PATH': '/home/albert/.vscode/extensions/ms-python.debugpy-2025.4.1-linux-x64/bundled/libs/debugpy', 'IM_CONFIG_CHECK_ENV': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '7464', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'albert', 'JOURNAL_STREAM': '8:12870', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'albert', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '1', 'PATH': '/home/albert/.local/bin:/opt/ros/humble/bin:/home/albert/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/albert/.vscode/extensions/ms-python.debugpy-2025.4.1-linux-x64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/Albert:@/tmp/.ICE-unix/1670,unix/Albert:/tmp/.ICE-unix/1670', 'INVOCATION_ID': '4dca263730f64fed80a0d60fdcf1a68f', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/albert/.vscode/extensions/ms-python.debugpy-2025.4.1-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-1ad39cf0a6001083.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.1NA732', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-e80bc2f746.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '11', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/albert/ros2_ws/build/task_5', 'TURTLEBOT3_MODEL': 'waffle', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/albert/ros2_ws/build/task_5/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/albert/ros2_ws/install/task_5/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[0.700898] (-) TimerEvent: {}
+[0.801163] (-) TimerEvent: {}
+[0.877929] (task_5) StdoutLine: {'line': b'running egg_info\n'}
+[0.878507] (task_5) StdoutLine: {'line': b'creating ../../build/task_5/task_5.egg-info\n'}
+[0.878797] (task_5) StdoutLine: {'line': b'writing ../../build/task_5/task_5.egg-info/PKG-INFO\n'}
+[0.878984] (task_5) StdoutLine: {'line': b'writing dependency_links to ../../build/task_5/task_5.egg-info/dependency_links.txt\n'}
+[0.879100] (task_5) StdoutLine: {'line': b'writing entry points to ../../build/task_5/task_5.egg-info/entry_points.txt\n'}
+[0.879193] (task_5) StdoutLine: {'line': b'writing requirements to ../../build/task_5/task_5.egg-info/requires.txt\n'}
+[0.879253] (task_5) StdoutLine: {'line': b'writing top-level names to ../../build/task_5/task_5.egg-info/top_level.txt\n'}
+[0.879323] (task_5) StdoutLine: {'line': b"writing manifest file '../../build/task_5/task_5.egg-info/SOURCES.txt'\n"}
+[0.880895] (task_5) StdoutLine: {'line': b"reading manifest file '../../build/task_5/task_5.egg-info/SOURCES.txt'\n"}
+[0.881453] (task_5) StdoutLine: {'line': b"writing manifest file '../../build/task_5/task_5.egg-info/SOURCES.txt'\n"}
+[0.881629] (task_5) StdoutLine: {'line': b'running build\n'}
+[0.881744] (task_5) StdoutLine: {'line': b'running build_py\n'}
+[0.881806] (task_5) StdoutLine: {'line': b'creating /home/albert/ros2_ws/build/task_5/build\n'}
+[0.881864] (task_5) StdoutLine: {'line': b'creating /home/albert/ros2_ws/build/task_5/build/lib\n'}
+[0.881921] (task_5) StdoutLine: {'line': b'creating /home/albert/ros2_ws/build/task_5/build/lib/task_5\n'}
+[0.882001] (task_5) StdoutLine: {'line': b'copying task_5/image_publisher.py -> /home/albert/ros2_ws/build/task_5/build/lib/task_5\n'}
+[0.882055] (task_5) StdoutLine: {'line': b'copying task_5/__init__.py -> /home/albert/ros2_ws/build/task_5/build/lib/task_5\n'}
+[0.882113] (task_5) StdoutLine: {'line': b'running install\n'}
+[0.882192] (task_5) StdoutLine: {'line': b'running install_lib\n'}
+[0.882921] (task_5) StdoutLine: {'line': b'creating /home/albert/ros2_ws/install/task_5/lib/python3.10/site-packages/task_5\n'}
+[0.883039] (task_5) StdoutLine: {'line': b'copying /home/albert/ros2_ws/build/task_5/build/lib/task_5/image_publisher.py -> /home/albert/ros2_ws/install/task_5/lib/python3.10/site-packages/task_5\n'}
+[0.883103] (task_5) StdoutLine: {'line': b'copying /home/albert/ros2_ws/build/task_5/build/lib/task_5/__init__.py -> /home/albert/ros2_ws/install/task_5/lib/python3.10/site-packages/task_5\n'}
+[0.883414] (task_5) StdoutLine: {'line': b'byte-compiling /home/albert/ros2_ws/install/task_5/lib/python3.10/site-packages/task_5/image_publisher.py to image_publisher.cpython-310.pyc\n'}
+[0.883868] (task_5) StdoutLine: {'line': b'byte-compiling /home/albert/ros2_ws/install/task_5/lib/python3.10/site-packages/task_5/__init__.py to __init__.cpython-310.pyc\n'}
+[0.883987] (task_5) StdoutLine: {'line': b'running install_data\n'}
+[0.884081] (task_5) StdoutLine: {'line': b'creating /home/albert/ros2_ws/install/task_5/share/ament_index\n'}
+[0.884160] (task_5) StdoutLine: {'line': b'creating /home/albert/ros2_ws/install/task_5/share/ament_index/resource_index\n'}
+[0.884219] (task_5) StdoutLine: {'line': b'creating /home/albert/ros2_ws/install/task_5/share/ament_index/resource_index/packages\n'}
+[0.884301] (task_5) StdoutLine: {'line': b'copying resource/task_5 -> /home/albert/ros2_ws/install/task_5/share/ament_index/resource_index/packages\n'}
+[0.884358] (task_5) StdoutLine: {'line': b'copying package.xml -> /home/albert/ros2_ws/install/task_5/share/task_5\n'}
+[0.884411] (task_5) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.885819] (task_5) StdoutLine: {'line': b'Copying ../../build/task_5/task_5.egg-info to /home/albert/ros2_ws/install/task_5/lib/python3.10/site-packages/task_5-0.0.0-py3.10.egg-info\n'}
+[0.886413] (task_5) StdoutLine: {'line': b'running install_scripts\n'}
+[0.901252] (-) TimerEvent: {}
+[0.903728] (task_5) StdoutLine: {'line': b'Installing image_publisher script to /home/albert/ros2_ws/install/task_5/lib/task_5\n'}
+[0.903963] (task_5) StdoutLine: {'line': b"writing list of installed files to '/home/albert/ros2_ws/build/task_5/install.log'\n"}
+[0.923639] (task_5) CommandEnded: {'returncode': 0}
+[0.935677] (task_5) JobEnded: {'identifier': 'task_5', 'rc': 0}
+[0.936156] (-) EventReactorShutdown: {}

@@ -1,0 +1,7 @@
+build/
+install/
+log/
+*.pyc
+__pycache__/
+ME597-Spring2025/
+vision_opencv/

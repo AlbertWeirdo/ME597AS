@@ -630,7 +630,10 @@ class AStar():
             current = self.via[current]
 
         Path.poses.reverse()  # Reverse the order of Path.poses
-        return path[::-1]
+        # return path[::-1]
+        path.reverse()
+        dist = self.dist[en.name]
+        return path,dist
         
         # return path[::-1], self.dist[en.name]
 

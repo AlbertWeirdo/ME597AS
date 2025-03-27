@@ -1,24 +1,22 @@
-## 🚀 Getting Started
+# ME597-Spring2025
 
-> These steps assume you are working in a ROS 2 (e.g. Foxy or Humble) compatible Linux environment (like Ubuntu 20.04+).
+This repository contains my personal work and solutions for **ME597: Learning Autonomous Systems with ROS 2** (Spring 2025), based on the official course materials provided in the [Purdue-ME597/ME597-Spring2025](https://github.com/Purdue-ME597/ME597-Spring2025) GitHub repository.
 
-1. **Clone this repository**
-   ```bash
-   git clone https://github.com/YOUR_USERNAME/ME597-Spring2025.git
-   cd ME597-Spring2025
-   ```
+All code, notes, and exercises here follow the weekly modules from the course, covering topics in robot setup, ROS 2 basics, kinematics, control, navigation, and perception.
 
-2. **Follow the setup instructions in `0-Setup`**  
-   Set up ROS 2, create a workspace, and install required packages.
+## 📁 Repository Structure
 
-3. **Launch Jupyter notebooks (if applicable)**
-   ```bash
-   jupyter notebook
-   ```
+- `0-Setup`: Installation and environment setup for ROS 2 and related tools.
+- `1-ROS_2_Basics`: Intro to ROS 2 nodes, topics, services, and launch files.
+- `2-Kinematics_&_Control`: Robot kinematics, PID control, and velocity commands.
+- `3-Navigation`: Path planning, SLAM, and autonomous navigation in simulated environments.
+- `4-Perception`: Camera and LiDAR-based perception, object detection, and tracking.
+
+Each folder contains exercises, scripts, and notes corresponding to that week's topic.
 
 ## 📦 Dependencies
 
-- ROS 2 (Humble)
+- ROS 2 Humble
 - Python
 - Jupyter Notebook
 - `colcon` build system

@@ -18,8 +18,8 @@
 
 ## 📦 Dependencies
 
-- ROS 2 (Foxy, Galactic, or Humble)
-- Python 3.8+
+- ROS 2 (Humble)
+- Python
 - Jupyter Notebook
 - `colcon` build system
 - `rviz2`, `gazebo_ros`, and other ROS packages as listed in the setup

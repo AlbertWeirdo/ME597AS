@@ -17,7 +17,7 @@ Each folder contains exercises, scripts, and notes corresponding to that week's 
 ## 📦 Dependencies
 
 - ROS 2 Humble
-- Python
+- Python3
 - Jupyter Notebook
 - `colcon` build system
 - `rviz2`, `gazebo_ros`, and other ROS packages as listed in the setup

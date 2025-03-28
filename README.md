@@ -20,7 +20,7 @@ Each folder contains exercises, scripts, and notes corresponding to that week's 
 - Python3
 - Jupyter Notebook
 - `colcon` build system
-- `rviz2`, `gazebo_ros`, and other ROS packages as listed in the setup
+- `rviz`, `gazebo`, and other ROS packages as listed in the setup
 
 See `0-Setup` for the complete dependency list and installation steps.
 

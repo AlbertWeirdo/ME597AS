@@ -1,6 +1,6 @@
 # ME597-Spring2025
 
-This repository contains my personal work and solutions for **ME597: Autonomous Systems** (Spring 2025), based on the official course materials provided in the [Purdue-ME597/ME597-Spring2025](https://github.com/Purdue-ME597/ME597-Spring2025) GitHub repository.
+This repository contains my personal work and solutions for **ME597: Autonomous Systems** (Spring 2025), based on the official course materials provided in the [Purdue-ME597/ME597-Spring2025](https://github.com/Purdue-ME597) GitHub repository.
 
 All code, notes, and exercises here follow the weekly modules from the course, covering topics in robot setup, ROS 2 basics, kinematics, control, navigation, and perception.
 

@@ -9,7 +9,7 @@ All code, notes, and exercises here follow the weekly modules from the course, c
 - `0-Setup`: Installation and environment setup for ROS 2 and related tools.
 - `1-ROS_2_Basics`: Intro to ROS 2 nodes, topics, services, and launch files.
 - `2-Kinematics_&_Control`: Robot kinematics, PID control, and velocity commands.
-- `3-Navigation`: Path planning, SLAM, and autonomous navigation in simulated environments.
+- `3-Navigation`: ath planning, SLAM, and autonomous navigation tested in both simulation and real-life robot platforms.
 - `4-Perception`: Camera and LiDAR-based perception, object detection, and tracking.
 
 Each folder contains exercises, scripts, and notes corresponding to that week's topic.

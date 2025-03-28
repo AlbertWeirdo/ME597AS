@@ -27,7 +27,7 @@ See `0-Setup` for the complete dependency list and installation steps.
 ## ✅ Notes
 
 - All work here is done independently as a learning exercise.
-- If you're taking ME597, **do not copy code directly**. Use this repo as a reference to support your learning.
+- If you're taking ME597AS, **do not copy code directly**. Use this repo as a reference to support your learning.
 - For the official course content, visit the [source repo](https://github.com/Purdue-ME597/ME597-Spring2025).
 
 ## 📖 License
